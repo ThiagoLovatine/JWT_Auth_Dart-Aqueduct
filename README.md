@@ -1,17 +1,17 @@
-# JWT Auth with Dart & Aqueduct
+# JWT Auth with Dart / Aqueduct / Postgres
 
 # Features
 ```
-login /auth/login (POST)
+Login /auth/login (POST)
 ```
 ```
-register /auth/register (POST)
+Register /auth/register (POST)
 ```
 ```
-profile /auth/profile (GET)
+Profile /auth/profile (GET)
 ```
 ```
-refresh token /auth/refreshToken (PUT)
+Refresh token /auth/refreshToken (PUT)
 ```
 
 

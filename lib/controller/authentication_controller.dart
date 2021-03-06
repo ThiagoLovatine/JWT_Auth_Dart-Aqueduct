@@ -26,4 +26,18 @@ class AuthenticationController extends ResourceController {
 
     return Response.ok(user);
   }
+
+  @Operation.get()
+  Future<Response> profile() async {
+    final params = request.body.as();
+
+    return Response.ok(params['login']);
+  }
+
+  @Operation.put()
+  Future<Response> refreshToken() async {
+    final params = request.body.as();
+
+    return Response.ok(params['login']);
+  }
 }
