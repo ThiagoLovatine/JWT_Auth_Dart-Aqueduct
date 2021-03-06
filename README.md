@@ -1,4 +1,19 @@
-# jwt_auth
+# JWT Auth with Dart & Aqueduct
+
+# Features
+```
+login /auth/login (POST)
+```
+```
+register /auth/register (POST)
+```
+```
+profile /auth/profile (GET)
+```
+```
+refresh token /auth/refreshToken (PUT)
+```
+
 
 ## Running the Application Locally
 
